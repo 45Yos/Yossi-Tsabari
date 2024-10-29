@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    position: sticky;
+    top: 0;
+}
+
+#header img {
+    position: absolute;
+    top: 0;
+}
+
+#headDiv {
+    width: 100%;
+    height: 400px;
+    background-image: url(./images/DHead.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%;
+}
+
+
+#headDiv h1 {
+    font-size: 50px;
+    color: rgb(21, 26, 118);
+    font-family: "Days One", sans-serif;
+    margin-bottom: 50px;
+    margin-top: 7%;
+}
+
+
+
+
+#buttons {
+    margin-top: 20px;
+    width: 20%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#buttons button {
+    width: 200px;
+    height: 68px;
+    border-radius: 20px;
+    background-image: url(./images/png-clipart-game-buttons-game-buttons-ui.png);
+    background-position: center;
+    background-size: 525px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    font-family: "Nova Round", system-ui;
+    transition: transform 0.5s;
+
+}
+
+
+#buttons button:hover {
+    transform: scale(0.9);
+}
+
+
+#mainContent {
+    width: 100%;
+    height: 70vh;
+    background-image: url(./images/backgen.jpg);
+    background-size: cover;
+    padding-top: 5%;
+}
+
+
+#mainContent img {
+    margin: auto;
+    display: flex;
+    box-shadow: 5px 5px 10px black;
+    transition: 0.5s;
+}
+
+
+#mainContent img:hover {
+    width: 70%;
+
+}
+
+
+#logos {
+    display: flex;
+    justify-content: center;
+}
