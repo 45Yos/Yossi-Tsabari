@@ -1,0 +1,356 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    height: 110px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    display: flex;
+    background-image: url(./images/banner2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: 999;
+    box-shadow: 1px 10px 50px rgba(12, 133, 203, 0.5);
+
+}
+
+
+#lDiv {
+    width: 49%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 3%;
+}
+
+#lDiv img {
+    width: 30px;
+    padding-right: 3%;
+}
+
+
+#lDiv th {
+    text-align: center;
+    font-size: 30px;
+    font-size: 20px;
+    margin: 3%;
+
+}
+
+
+.link {
+    text-decoration: underline;
+    color: black;
+}
+
+#rDiv {
+    width: 49%;
+    padding-left: 20%;
+}
+
+#rDiv img {
+    height: 150%;
+    margin-top: -30px;
+}
+
+
+
+
+/* first area */
+
+
+#port {
+
+    height: 800px;
+    background-image: url(./images/back1.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+#firstTitle h1 {
+    margin-top: 10%;
+    text-align: left;
+    padding-bottom: 80px;
+    font-family: "Quicksand", sans-serif;
+}
+
+#port p {
+    text-align: left;
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+}
+
+
+
+
+#firstLine {
+    padding-left: 5%;
+}
+
+#secondLine {
+    padding-left: 8%;
+}
+
+#thirdLine {
+    padding-left: 10%;
+}
+
+#fourthLine {
+    padding-left: 15%;
+}
+
+#logos {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#aboutM {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1050px;
+    background-image: url(./images/about2.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: 1px 10px 50px rgba(12, 133, 203, 0.5);
+}
+
+#aboutM h2 {
+    text-align: center;
+    padding-bottom: 50px;
+    color: black;
+    font-size: 40px;
+}
+
+#aboutM img {
+    border-radius: 100%;
+    object-fit: cover;
+    width: 180px;
+    height: 180px;
+}
+
+#aboutM p {
+    padding-top: 50px;
+    width: 50%;
+    text-align: center;
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+
+}
+
+#button-Resume {
+    margin-top: 30px;
+    width: 200px;
+    height: 78px;
+    border-radius: 20px;
+    background-image: url(./images/png-clipart-game-buttons-game-buttons-ui.png);
+    background-position: center;
+    background-size: 525px;
+    color: white;
+    cursor: pointer;
+}
+
+
+#myProjects {
+    text-align: center;
+    background-image: url(./images/backProjects.png);
+    margin-top: 1%;
+    height: 1150px;
+}
+
+
+#myProjects h2 {
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+#myProjects p {
+    font-size: 25px;
+    font-family: "Quicksand", sans-serif;
+    width: 30%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+
+
+#galleryButton {
+    margin-top: 3%;
+    width: 200px;
+    height: 78px;
+    border-radius: 20px;
+    background-image: url(./images/png-clipart-game-buttons-game-buttons-ui.png);
+    background-position: center;
+    background-size: 525px;
+    color: white;
+    cursor: pointer;
+}
+
+
+
+/* footer */
+
+
+#footer {
+    width: 100%;
+    height: 800px;
+    background-image: url(./images/footer2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: white;
+}
+
+
+#contact {
+    margin-left: 10%;
+    width: 40%;
+}
+
+
+
+#contact img {
+    width: 100px;
+
+}
+
+
+#call {
+    display: flex;
+    align-items: center;
+
+}
+
+#call a {
+    text-decoration: none;
+    color: white;
+
+}
+
+#call a:hover {
+    text-decoration: underline;
+
+}
+
+
+#call p {
+    margin-left: 1%;
+    font-size: 30px;
+
+}
+
+
+#formContact {
+    margin-top: 2%;
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+}
+
+#formContact input {
+    border: 0;
+    border-radius: 10px;
+    color: black;
+    font-family: 'heebo';
+}
+
+
+#formContact textarea {
+    color: black;
+    font-family: 'heebo';
+}
+
+
+
+#social {
+    display: flex;
+    margin-top: 3%;
+    width: 60%;
+}
+
+#social img {
+    width: 60px;
+    height: 60px;
+    margin: 3%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    border: 1px solid;
+}
+
+
+#social p {
+
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    margin-top: 40px;
+
+}
+
+
+
+@media (max-width:780px) {
+
+
+    #header {
+        position: static;
+    }
+
+    #rDiv {
+        width: 20%;
+    }
+
+    #lDiv {
+        width: 60%;
+    }
+
+
+    #port {
+        height: 100%;
+        color: white;
+    }
+
+
+    #aboutM {
+        background-size: cover;
+        width: 100%;
+        height: 210vh;
+        box-shadow: 0px 0px;
+        margin-bottom: -3%;
+    }
+
+
+    #contact {
+        margin-left: 2%;
+        width: 50%;
+    }
+
+
+    #social {
+        flex-direction: column;
+        direction: rtl;
+        width: 50%;
+    }
+
+    #social p {
+        direction: ltr;
+        margin-left: auto;
+    }
+
+
+    #social img {
+        margin-right: 25%;
+    }
+
+}
